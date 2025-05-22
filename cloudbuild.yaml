@@ -1,4 +1,4 @@
-subtitution:
+subtitutions:
   _ENV: "gs://johan-notes-bucket/.env"
 
 steps:
