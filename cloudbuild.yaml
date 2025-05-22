@@ -1,3 +1,6 @@
+subtitution:
+  _ENV: "gs://johan-notes-bucket/.env"
+
 steps:
   - name: "gcr.io/cloud-builders/gsutil"
     args: ["cp", "${_ENV}", ".env"]
